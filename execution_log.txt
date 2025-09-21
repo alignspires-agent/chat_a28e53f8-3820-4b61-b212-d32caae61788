@@ -1,0 +1,1400 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9968.58 ms	Phase: init	Status: timeout
+
+=== Experiment Output ===
+
+==================================================
+
+MoSEs Framework Implementation Summary
+
+==================================================
+
+Training samples: 200
+
+Test samples: 50
+
+Accuracy: 0.380
+
+F1 Score: 0.392
+
+Average Confidence: 0.591
+
+==================================================
+
+Note: This is a simplified implementation with synthetic data.
+
+For real applications, use actual linguistic features and
+
+pre-trained embeddings like BGE-M3 for better performance.
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:26:50,562 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:26:50,563 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components
+
+2025-09-21 13:26:50,563 - INFO - Generating synthetic data with 200 samples
+
+2025-09-21 13:26:50,569 - INFO - Building Stylistics Reference Repository with 200 samples
+
+2025-09-21 13:26:50,569 - INFO - Extracting linguistic features from 200 texts
+
+2025-09-21 13:26:50,572 - INFO - Extracting semantic embeddings from 200 texts
+
+2025-09-21 13:26:50,700 - INFO - SRR built successfully with 4 style categories
+
+2025-09-21 13:26:50,704 - INFO - Training Conditional Threshold Estimator
+
+2025-09-21 13:26:50,723 - INFO - CTE trained successfully with accuracy: 0.65
+
+2025-09-21 13:26:50,723 - INFO - Generating synthetic data with 50 samples
+
+2025-09-21 13:26:50,725 - INFO - Testing MoSEs framework on 50 samples
+
+2025-09-21 13:26:50,725 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,725 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,725 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,725 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,726 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,726 - INFO - Prediction: Human-written with confidence: 0.557
+
+2025-09-21 13:26:50,727 - INFO - Processed 0/50 test samples
+
+2025-09-21 13:26:50,727 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,727 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,727 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,727 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,727 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,728 - INFO - Prediction: Human-written with confidence: 0.531
+
+2025-09-21 13:26:50,728 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,728 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,729 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,729 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,729 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,730 - INFO - Prediction: Human-written with confidence: 0.594
+
+2025-09-21 13:26:50,730 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,730 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,730 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,730 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,730 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,731 - INFO - Prediction: AI-generated with confidence: 0.581
+
+2025-09-21 13:26:50,731 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,731 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,732 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,732 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,732 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,733 - INFO - Prediction: AI-generated with confidence: 0.631
+
+2025-09-21 13:26:50,733 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,733 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,733 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,733 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,733 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,734 - INFO - Prediction: Human-written with confidence: 0.546
+
+2025-09-21 13:26:50,734 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,734 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,735 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,735 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,735 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,735 - INFO - Prediction: AI-generated with confidence: 0.691
+
+2025-09-21 13:26:50,735 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,736 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,736 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,736 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,736 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,737 - INFO - Prediction: AI-generated with confidence: 0.626
+
+2025-09-21 13:26:50,737 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,737 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,737 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,738 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,738 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,738 - INFO - Prediction: AI-generated with confidence: 0.633
+
+2025-09-21 13:26:50,738 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,738 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,739 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,739 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,739 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,740 - INFO - Prediction: AI-generated with confidence: 0.708
+
+2025-09-21 13:26:50,740 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,740 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,744 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,744 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,744 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,745 - INFO - Prediction: AI-generated with confidence: 0.501
+
+2025-09-21 13:26:50,745 - INFO - Processed 10/50 test samples
+
+2025-09-21 13:26:50,745 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,745 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,746 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,746 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,746 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,747 - INFO - Prediction: Human-written with confidence: 0.723
+
+2025-09-21 13:26:50,747 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,747 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,747 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,747 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,747 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,748 - INFO - Prediction: Human-written with confidence: 0.711
+
+2025-09-21 13:26:50,748 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,748 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,749 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,749 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,749 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,749 - INFO - Prediction: Human-written with confidence: 0.570
+
+2025-09-21 13:26:50,749 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,750 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,750 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,750 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,750 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,751 - INFO - Prediction: Human-written with confidence: 0.531
+
+2025-09-21 13:26:50,751 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,751 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,751 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,751 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,752 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,752 - INFO - Prediction: Human-written with confidence: 0.728
+
+2025-09-21 13:26:50,752 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,752 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,753 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,753 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,753 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,754 - INFO - Prediction: AI-generated with confidence: 0.575
+
+2025-09-21 13:26:50,754 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,754 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,754 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,754 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,754 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,755 - INFO - Prediction: AI-generated with confidence: 0.559
+
+2025-09-21 13:26:50,755 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,755 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,756 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,756 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,756 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,756 - INFO - Prediction: Human-written with confidence: 0.605
+
+2025-09-21 13:26:50,756 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,757 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,757 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,757 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,757 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,758 - INFO - Prediction: AI-generated with confidence: 0.693
+
+2025-09-21 13:26:50,758 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,758 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,758 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,758 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,759 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,759 - INFO - Prediction: Human-written with confidence: 0.603
+
+2025-09-21 13:26:50,759 - INFO - Processed 20/50 test samples
+
+2025-09-21 13:26:50,759 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,759 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,760 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,760 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,760 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,761 - INFO - Prediction: AI-generated with confidence: 0.516
+
+2025-09-21 13:26:50,761 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,761 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,761 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,761 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,761 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,762 - INFO - Prediction: Human-written with confidence: 0.642
+
+2025-09-21 13:26:50,762 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,762 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,762 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,762 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,762 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,763 - INFO - Prediction: Human-written with confidence: 0.505
+
+2025-09-21 13:26:50,763 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,763 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,763 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,763 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,764 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,764 - INFO - Prediction: Human-written with confidence: 0.630
+
+2025-09-21 13:26:50,764 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,764 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,765 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,765 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,765 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,765 - INFO - Prediction: AI-generated with confidence: 0.531
+
+2025-09-21 13:26:50,766 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,766 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,766 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,766 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,766 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,767 - INFO - Prediction: Human-written with confidence: 0.562
+
+2025-09-21 13:26:50,767 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,767 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,767 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,768 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,768 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,768 - INFO - Prediction: Human-written with confidence: 0.554
+
+2025-09-21 13:26:50,768 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,768 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,769 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,769 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,769 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,770 - INFO - Prediction: AI-generated with confidence: 0.514
+
+2025-09-21 13:26:50,770 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,770 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,770 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,770 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,770 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,771 - INFO - Prediction: AI-generated with confidence: 0.580
+
+2025-09-21 13:26:50,771 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,771 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,772 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,772 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,772 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,773 - INFO - Prediction: Human-written with confidence: 0.556
+
+2025-09-21 13:26:50,773 - INFO - Processed 30/50 test samples
+
+2025-09-21 13:26:50,773 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,773 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,773 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,773 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,773 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,774 - INFO - Prediction: Human-written with confidence: 0.566
+
+2025-09-21 13:26:50,774 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,774 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,775 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,775 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,775 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,775 - INFO - Prediction: Human-written with confidence: 0.585
+
+2025-09-21 13:26:50,775 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,776 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,776 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,776 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,776 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,777 - INFO - Prediction: AI-generated with confidence: 0.579
+
+2025-09-21 13:26:50,777 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,777 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,777 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,777 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,778 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,778 - INFO - Prediction: Human-written with confidence: 0.618
+
+2025-09-21 13:26:50,778 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,778 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,779 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,779 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,779 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,780 - INFO - Prediction: Human-written with confidence: 0.717
+
+2025-09-21 13:26:50,780 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,780 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,780 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,780 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,780 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,781 - INFO - Prediction: AI-generated with confidence: 0.623
+
+2025-09-21 13:26:50,781 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,781 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,781 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,781 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,782 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,782 - INFO - Prediction: Human-written with confidence: 0.630
+
+2025-09-21 13:26:50,782 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,782 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,783 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,783 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,783 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,783 - INFO - Prediction: Human-written with confidence: 0.519
+
+2025-09-21 13:26:50,783 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,783 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,784 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,784 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,784 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,784 - INFO - Prediction: Human-written with confidence: 0.580
+
+2025-09-21 13:26:50,785 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,785 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,785 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,785 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,785 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,786 - INFO - Prediction: Human-written with confidence: 0.573
+
+2025-09-21 13:26:50,786 - INFO - Processed 40/50 test samples
+
+2025-09-21 13:26:50,786 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,786 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,786 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,787 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,787 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,787 - INFO - Prediction: AI-generated with confidence: 0.547
+
+2025-09-21 13:26:50,787 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,787 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,788 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,788 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,788 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,789 - INFO - Prediction: AI-generated with confidence: 0.539
+
+2025-09-21 13:26:50,789 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,789 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,789 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,789 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,790 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,790 - INFO - Prediction: Human-written with confidence: 0.522
+
+2025-09-21 13:26:50,790 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,790 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,791 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,791 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,791 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,791 - INFO - Prediction: Human-written with confidence: 0.631
+
+2025-09-21 13:26:50,792 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,792 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,792 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,792 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,792 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,793 - INFO - Prediction: Human-written with confidence: 0.619
+
+2025-09-21 13:26:50,793 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,793 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,793 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,794 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,794 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,794 - INFO - Prediction: AI-generated with confidence: 0.533
+
+2025-09-21 13:26:50,794 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,794 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,795 - INFO - SAR activated 108 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,795 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,795 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,796 - INFO - Prediction: AI-generated with confidence: 0.580
+
+2025-09-21 13:26:50,796 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,796 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,796 - INFO - SAR activated 94 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,796 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,796 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,797 - INFO - Prediction: Human-written with confidence: 0.573
+
+2025-09-21 13:26:50,797 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,797 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,798 - INFO - SAR activated 90 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:50,798 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:50,798 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:50,799 - INFO - Prediction: AI-generated with confidence: 0.543
+
+2025-09-21 13:26:50,806 - INFO - Test Results:
+
+2025-09-21 13:26:50,806 - INFO - Accuracy: 0.380
+
+2025-09-21 13:26:50,806 - INFO - F1 Score: 0.392
+
+2025-09-21 13:26:50,806 - INFO - Average Confidence: 0.591
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n==================================================\nMoSEs Framework Implementation Summary\n==================================================\nTraining samples: 200\nTest samples: 50\nAccuracy: 0.380\nF1 Score: 0.392\nAverage Confidence: 0.591\n==================================================\nNote: This is a simplified implementation with synthetic data.\nFor real applications, use actual linguistic features and\npre-trained embeddings like BGE-M3 for better performance.\n",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:26:50,562 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:26:50,563 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components\n2025-09-21 13:26:50,563 - INFO - Generating synthetic data with 200 samples\n2025-09-21 13:26:50,569 - INFO - Building Stylistics Reference Repository with 200 samples\n2025-09-21 13:26:50,569 - INFO - Extracting linguistic features from 200 texts\n2025-09-21 13:26:50,572 - INFO - Extracting semantic embeddings from 200 texts\n2025-09-21 13:26:50,700 - INFO - SRR built successfully with 4 style categories\n2025-09-21 13:26:50,704 - INFO - Training Conditional Threshold Estimator\n2025-09-21 13:26:50,723 - INFO - CTE trained successfully with accuracy: 0.65\n2025-09-21 13:26:50,723 - INFO - Generating synthetic data with 50 samples\n2025-09-21 13:26:50,725 - INFO - Testing MoSEs framework on 50 samples\n2025-09-21 13:26:50,725 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,725 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,725 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,725 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,726 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,726 - INFO - Prediction: Human-written with confidence: 0.557\n2025-09-21 13:26:50,727 - INFO - Processed 0/50 test samples\n2025-09-21 13:26:50,727 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,727 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,727 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,727 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,727 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,728 - INFO - Prediction: Human-written with confidence: 0.531\n2025-09-21 13:26:50,728 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,728 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,729 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,729 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,729 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,730 - INFO - Prediction: Human-written with confidence: 0.594\n2025-09-21 13:26:50,730 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,730 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,730 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,730 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,730 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,731 - INFO - Prediction: AI-generated with confidence: 0.581\n2025-09-21 13:26:50,731 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,731 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,732 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,732 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,732 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,733 - INFO - Prediction: AI-generated with confidence: 0.631\n2025-09-21 13:26:50,733 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,733 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,733 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,733 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,733 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,734 - INFO - Prediction: Human-written with confidence: 0.546\n2025-09-21 13:26:50,734 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,734 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,735 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,735 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,735 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,735 - INFO - Prediction: AI-generated with confidence: 0.691\n2025-09-21 13:26:50,735 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,736 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,736 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,736 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,736 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,737 - INFO - Prediction: AI-generated with confidence: 0.626\n2025-09-21 13:26:50,737 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,737 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,737 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,738 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,738 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,738 - INFO - Prediction: AI-generated with confidence: 0.633\n2025-09-21 13:26:50,738 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,738 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,739 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,739 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,739 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,740 - INFO - Prediction: AI-generated with confidence: 0.708\n2025-09-21 13:26:50,740 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,740 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,744 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,744 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,744 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,745 - INFO - Prediction: AI-generated with confidence: 0.501\n2025-09-21 13:26:50,745 - INFO - Processed 10/50 test samples\n2025-09-21 13:26:50,745 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,745 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,746 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,746 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,746 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,747 - INFO - Prediction: Human-written with confidence: 0.723\n2025-09-21 13:26:50,747 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,747 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,747 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,747 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,747 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,748 - INFO - Prediction: Human-written with confidence: 0.711\n2025-09-21 13:26:50,748 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,748 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,749 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,749 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,749 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,749 - INFO - Prediction: Human-written with confidence: 0.570\n2025-09-21 13:26:50,749 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,750 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,750 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,750 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,750 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,751 - INFO - Prediction: Human-written with confidence: 0.531\n2025-09-21 13:26:50,751 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,751 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,751 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,751 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,752 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,752 - INFO - Prediction: Human-written with confidence: 0.728\n2025-09-21 13:26:50,752 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,752 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,753 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,753 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,753 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,754 - INFO - Prediction: AI-generated with confidence: 0.575\n2025-09-21 13:26:50,754 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,754 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,754 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,754 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,754 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,755 - INFO - Prediction: AI-generated with confidence: 0.559\n2025-09-21 13:26:50,755 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,755 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,756 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,756 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,756 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,756 - INFO - Prediction: Human-written with confidence: 0.605\n2025-09-21 13:26:50,756 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,757 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,757 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,757 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,757 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,758 - INFO - Prediction: AI-generated with confidence: 0.693\n2025-09-21 13:26:50,758 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,758 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,758 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,758 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,759 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,759 - INFO - Prediction: Human-written with confidence: 0.603\n2025-09-21 13:26:50,759 - INFO - Processed 20/50 test samples\n2025-09-21 13:26:50,759 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,759 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,760 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,760 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,760 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,761 - INFO - Prediction: AI-generated with confidence: 0.516\n2025-09-21 13:26:50,761 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,761 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,761 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,761 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,761 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,762 - INFO - Prediction: Human-written with confidence: 0.642\n2025-09-21 13:26:50,762 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,762 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,762 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,762 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,762 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,763 - INFO - Prediction: Human-written with confidence: 0.505\n2025-09-21 13:26:50,763 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,763 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,763 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,763 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,764 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,764 - INFO - Prediction: Human-written with confidence: 0.630\n2025-09-21 13:26:50,764 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,764 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,765 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,765 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,765 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,765 - INFO - Prediction: AI-generated with confidence: 0.531\n2025-09-21 13:26:50,766 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,766 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,766 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,766 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,766 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,767 - INFO - Prediction: Human-written with confidence: 0.562\n2025-09-21 13:26:50,767 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,767 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,767 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,768 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,768 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,768 - INFO - Prediction: Human-written with confidence: 0.554\n2025-09-21 13:26:50,768 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,768 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,769 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,769 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,769 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,770 - INFO - Prediction: AI-generated with confidence: 0.514\n2025-09-21 13:26:50,770 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,770 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,770 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,770 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,770 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,771 - INFO - Prediction: AI-generated with confidence: 0.580\n2025-09-21 13:26:50,771 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,771 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,772 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,772 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,772 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,773 - INFO - Prediction: Human-written with confidence: 0.556\n2025-09-21 13:26:50,773 - INFO - Processed 30/50 test samples\n2025-09-21 13:26:50,773 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,773 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,773 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,773 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,773 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,774 - INFO - Prediction: Human-written with confidence: 0.566\n2025-09-21 13:26:50,774 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,774 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,775 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,775 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,775 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,775 - INFO - Prediction: Human-written with confidence: 0.585\n2025-09-21 13:26:50,775 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,776 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,776 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,776 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,776 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,777 - INFO - Prediction: AI-generated with confidence: 0.579\n2025-09-21 13:26:50,777 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,777 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,777 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,777 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,778 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,778 - INFO - Prediction: Human-written with confidence: 0.618\n2025-09-21 13:26:50,778 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,778 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,779 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,779 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,779 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,780 - INFO - Prediction: Human-written with confidence: 0.717\n2025-09-21 13:26:50,780 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,780 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,780 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,780 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,780 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,781 - INFO - Prediction: AI-generated with confidence: 0.623\n2025-09-21 13:26:50,781 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,781 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,781 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,781 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,782 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,782 - INFO - Prediction: Human-written with confidence: 0.630\n2025-09-21 13:26:50,782 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,782 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,783 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,783 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,783 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,783 - INFO - Prediction: Human-written with confidence: 0.519\n2025-09-21 13:26:50,783 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,783 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,784 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,784 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,784 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,784 - INFO - Prediction: Human-written with confidence: 0.580\n2025-09-21 13:26:50,785 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,785 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,785 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,785 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,785 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,786 - INFO - Prediction: Human-written with confidence: 0.573\n2025-09-21 13:26:50,786 - INFO - Processed 40/50 test samples\n2025-09-21 13:26:50,786 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,786 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,786 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,787 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,787 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,787 - INFO - Prediction: AI-generated with confidence: 0.547\n2025-09-21 13:26:50,787 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,787 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,788 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,788 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,788 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,789 - INFO - Prediction: AI-generated with confidence: 0.539\n2025-09-21 13:26:50,789 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,789 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,789 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,789 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,790 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,790 - INFO - Prediction: Human-written with confidence: 0.522\n2025-09-21 13:26:50,790 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,790 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,791 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,791 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,791 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,791 - INFO - Prediction: Human-written with confidence: 0.631\n2025-09-21 13:26:50,792 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,792 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,792 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,792 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,792 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,793 - INFO - Prediction: Human-written with confidence: 0.619\n2025-09-21 13:26:50,793 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,793 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,793 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,794 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,794 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,794 - INFO - Prediction: AI-generated with confidence: 0.533\n2025-09-21 13:26:50,794 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,794 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,795 - INFO - SAR activated 108 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,795 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,795 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,796 - INFO - Prediction: AI-generated with confidence: 0.580\n2025-09-21 13:26:50,796 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,796 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,796 - INFO - SAR activated 94 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,796 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,796 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,797 - INFO - Prediction: Human-written with confidence: 0.573\n2025-09-21 13:26:50,797 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,797 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,798 - INFO - SAR activated 90 reference samples from 2 nearest prototypes\n2025-09-21 13:26:50,798 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:50,798 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:50,799 - INFO - Prediction: AI-generated with confidence: 0.543\n2025-09-21 13:26:50,806 - INFO - Test Results:\n2025-09-21 13:26:50,806 - INFO - Accuracy: 0.380\n2025-09-21 13:26:50,806 - INFO - F1 Score: 0.392\n2025-09-21 13:26:50,806 - INFO - Average Confidence: 0.591\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1899.67 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 7282869d-3a52-48cf-a438-72fd770ae350 Version: $LATEST
+
+RequestId: 7282869d-3a52-48cf-a438-72fd770ae350 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 7282869d-3a52-48cf-a438-72fd770ae350
+
+REPORT RequestId: 7282869d-3a52-48cf-a438-72fd770ae350	Duration: 1900.72 ms	Billed Duration: 1901 ms	Memory Size: 3008 MB	Max Memory Used: 94 MB	
+
+=== Experiment Output ===
+
+==================================================
+
+MoSEs Framework Implementation Summary
+
+==================================================
+
+Training samples: 200
+
+Test samples: 50
+
+Accuracy: 0.520
+
+F1 Score: 0.500
+
+Average Confidence: 0.579
+
+==================================================
+
+Note: This is a simplified implementation with synthetic data.
+
+For real applications, use actual linguistic features and
+
+pre-trained embeddings like BGE-M3 for better performance.
+
+=== Experiment Errors ===
+
+/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode
+
+warnings.warn("%s.  joblib will operate in serial mode" % (e,))
+
+2025-09-21 13:26:51,920 - INFO - Starting MoSEs framework demonstration
+
+2025-09-21 13:26:51,920 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components
+
+2025-09-21 13:26:51,920 - INFO - Generating synthetic data with 200 samples
+
+2025-09-21 13:26:51,926 - INFO - Building Stylistics Reference Repository with 200 samples
+
+2025-09-21 13:26:51,926 - INFO - Extracting linguistic features from 200 texts
+
+2025-09-21 13:26:51,930 - INFO - Extracting semantic embeddings from 200 texts
+
+2025-09-21 13:26:52,020 - INFO - SRR built successfully with 4 style categories
+
+2025-09-21 13:26:52,024 - INFO - Training Conditional Threshold Estimator
+
+2025-09-21 13:26:52,030 - INFO - CTE trained successfully with accuracy: 0.64
+
+2025-09-21 13:26:52,030 - INFO - Generating synthetic data with 50 samples
+
+2025-09-21 13:26:52,032 - INFO - Testing MoSEs framework on 50 samples
+
+2025-09-21 13:26:52,032 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,032 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,033 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,033 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,033 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,033 - INFO - Prediction: Human-written with confidence: 0.507
+
+2025-09-21 13:26:52,034 - INFO - Processed 0/50 test samples
+
+2025-09-21 13:26:52,034 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,034 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,034 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,034 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,034 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,035 - INFO - Prediction: AI-generated with confidence: 0.533
+
+2025-09-21 13:26:52,035 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,035 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,036 - INFO - SAR activated 120 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,036 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,036 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,037 - INFO - Prediction: Human-written with confidence: 0.593
+
+2025-09-21 13:26:52,037 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,037 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,037 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,037 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,037 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,038 - INFO - Prediction: Human-written with confidence: 0.507
+
+2025-09-21 13:26:52,038 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,038 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,039 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,039 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,039 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,039 - INFO - Prediction: AI-generated with confidence: 0.619
+
+2025-09-21 13:26:52,040 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,040 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,040 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,040 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,040 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,041 - INFO - Prediction: AI-generated with confidence: 0.613
+
+2025-09-21 13:26:52,041 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,041 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,041 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,041 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,041 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,042 - INFO - Prediction: Human-written with confidence: 0.579
+
+2025-09-21 13:26:52,042 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,042 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,043 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,043 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,043 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,043 - INFO - Prediction: AI-generated with confidence: 0.524
+
+2025-09-21 13:26:52,043 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,043 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,044 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,044 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,044 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,044 - INFO - Prediction: Human-written with confidence: 0.646
+
+2025-09-21 13:26:52,045 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,045 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,045 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,045 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,045 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,046 - INFO - Prediction: Human-written with confidence: 0.600
+
+2025-09-21 13:26:52,046 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,046 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,047 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,047 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,047 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,047 - INFO - Prediction: Human-written with confidence: 0.658
+
+2025-09-21 13:26:52,047 - INFO - Processed 10/50 test samples
+
+2025-09-21 13:26:52,047 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,048 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,048 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,048 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,048 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,049 - INFO - Prediction: AI-generated with confidence: 0.527
+
+2025-09-21 13:26:52,049 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,049 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,049 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,049 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,050 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,050 - INFO - Prediction: AI-generated with confidence: 0.521
+
+2025-09-21 13:26:52,050 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,050 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,051 - INFO - SAR activated 120 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,051 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,051 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,052 - INFO - Prediction: Human-written with confidence: 0.528
+
+2025-09-21 13:26:52,052 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,052 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,052 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,052 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,052 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,053 - INFO - Prediction: AI-generated with confidence: 0.502
+
+2025-09-21 13:26:52,053 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,053 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,054 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,054 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,054 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,054 - INFO - Prediction: AI-generated with confidence: 0.613
+
+2025-09-21 13:26:52,054 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,055 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,055 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,055 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,055 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,056 - INFO - Prediction: Human-written with confidence: 0.529
+
+2025-09-21 13:26:52,056 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,056 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,056 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,056 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,057 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,057 - INFO - Prediction: Human-written with confidence: 0.648
+
+2025-09-21 13:26:52,057 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,057 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,058 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,058 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,058 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,059 - INFO - Prediction: Human-written with confidence: 0.518
+
+2025-09-21 13:26:52,059 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,059 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,059 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,059 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,059 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,060 - INFO - Prediction: AI-generated with confidence: 0.610
+
+2025-09-21 13:26:52,064 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,064 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,065 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,065 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,065 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,066 - INFO - Prediction: Human-written with confidence: 0.545
+
+2025-09-21 13:26:52,066 - INFO - Processed 20/50 test samples
+
+2025-09-21 13:26:52,066 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,066 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,066 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,067 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,067 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,067 - INFO - Prediction: AI-generated with confidence: 0.618
+
+2025-09-21 13:26:52,067 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,067 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,068 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,068 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,068 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,069 - INFO - Prediction: AI-generated with confidence: 0.515
+
+2025-09-21 13:26:52,069 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,069 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,069 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,069 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,069 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,070 - INFO - Prediction: Human-written with confidence: 0.532
+
+2025-09-21 13:26:52,070 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,070 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,071 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,071 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,071 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,071 - INFO - Prediction: Human-written with confidence: 0.579
+
+2025-09-21 13:26:52,072 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,072 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,072 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,072 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,072 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,073 - INFO - Prediction: Human-written with confidence: 0.558
+
+2025-09-21 13:26:52,073 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,073 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,073 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,074 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,074 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,074 - INFO - Prediction: AI-generated with confidence: 0.548
+
+2025-09-21 13:26:52,074 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,074 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,075 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,075 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,075 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,076 - INFO - Prediction: Human-written with confidence: 0.548
+
+2025-09-21 13:26:52,076 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,076 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,076 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,076 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,076 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,077 - INFO - Prediction: AI-generated with confidence: 0.512
+
+2025-09-21 13:26:52,077 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,077 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,078 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,078 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,078 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,078 - INFO - Prediction: Human-written with confidence: 0.552
+
+2025-09-21 13:26:52,079 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,079 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,079 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,079 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,079 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,080 - INFO - Prediction: Human-written with confidence: 0.667
+
+2025-09-21 13:26:52,080 - INFO - Processed 30/50 test samples
+
+2025-09-21 13:26:52,080 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,080 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,081 - INFO - SAR activated 120 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,081 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,081 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,081 - INFO - Prediction: Human-written with confidence: 0.538
+
+2025-09-21 13:26:52,081 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,081 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,082 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,082 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,082 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,082 - INFO - Prediction: Human-written with confidence: 0.616
+
+2025-09-21 13:26:52,082 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,083 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,083 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,083 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,083 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,084 - INFO - Prediction: Human-written with confidence: 0.566
+
+2025-09-21 13:26:52,084 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,084 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,084 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,084 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,084 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,085 - INFO - Prediction: AI-generated with confidence: 0.621
+
+2025-09-21 13:26:52,085 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,085 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,085 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,086 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,086 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,086 - INFO - Prediction: Human-written with confidence: 0.598
+
+2025-09-21 13:26:52,086 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,086 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,087 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,087 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,087 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,088 - INFO - Prediction: AI-generated with confidence: 0.637
+
+2025-09-21 13:26:52,088 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,088 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,088 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,088 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,089 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,089 - INFO - Prediction: Human-written with confidence: 0.594
+
+2025-09-21 13:26:52,089 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,089 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,090 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,090 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,090 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,091 - INFO - Prediction: AI-generated with confidence: 0.592
+
+2025-09-21 13:26:52,091 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,091 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,091 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,091 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,091 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,092 - INFO - Prediction: Human-written with confidence: 0.501
+
+2025-09-21 13:26:52,092 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,092 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,093 - INFO - SAR activated 96 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,093 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,093 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,093 - INFO - Prediction: AI-generated with confidence: 0.726
+
+2025-09-21 13:26:52,093 - INFO - Processed 40/50 test samples
+
+2025-09-21 13:26:52,094 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,094 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,094 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,094 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,094 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,095 - INFO - Prediction: Human-written with confidence: 0.658
+
+2025-09-21 13:26:52,095 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,095 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,096 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,096 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,096 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,096 - INFO - Prediction: AI-generated with confidence: 0.717
+
+2025-09-21 13:26:52,096 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,096 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,097 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,097 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,097 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,098 - INFO - Prediction: Human-written with confidence: 0.501
+
+2025-09-21 13:26:52,098 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,098 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,098 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,098 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,098 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,099 - INFO - Prediction: Human-written with confidence: 0.592
+
+2025-09-21 13:26:52,099 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,099 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,100 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,100 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,100 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,105 - INFO - Prediction: AI-generated with confidence: 0.633
+
+2025-09-21 13:26:52,105 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,105 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,105 - INFO - SAR activated 120 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,105 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,106 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,106 - INFO - Prediction: AI-generated with confidence: 0.567
+
+2025-09-21 13:26:52,106 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,106 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,107 - INFO - SAR activated 104 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,107 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,107 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,108 - INFO - Prediction: Human-written with confidence: 0.579
+
+2025-09-21 13:26:52,108 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,108 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,108 - INFO - SAR activated 100 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,108 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,109 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,109 - INFO - Prediction: Human-written with confidence: 0.589
+
+2025-09-21 13:26:52,109 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,109 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,110 - INFO - SAR activated 80 reference samples from 2 nearest prototypes
+
+2025-09-21 13:26:52,110 - INFO - Extracting linguistic features from 1 texts
+
+2025-09-21 13:26:52,110 - INFO - Extracting semantic embeddings from 1 texts
+
+2025-09-21 13:26:52,111 - INFO - Prediction: Human-written with confidence: 0.592
+
+2025-09-21 13:26:52,114 - INFO - Test Results:
+
+2025-09-21 13:26:52,114 - INFO - Accuracy: 0.520
+
+2025-09-21 13:26:52,114 - INFO - F1 Score: 0.500
+
+2025-09-21 13:26:52,114 - INFO - Average Confidence: 0.579
+
+{
+
+"experimentStatusCode": 200,
+
+"body": {
+
+"message": "Experiment completed successfully",
+
+"returncode": 0,
+
+"stdout": "\n==================================================\nMoSEs Framework Implementation Summary\n==================================================\nTraining samples: 200\nTest samples: 50\nAccuracy: 0.520\nF1 Score: 0.500\nAverage Confidence: 0.579\n==================================================\nNote: This is a simplified implementation with synthetic data.\nFor real applications, use actual linguistic features and\npre-trained embeddings like BGE-M3 for better performance.\n",
+
+"stderr": "/usr/local/lib/python3.11/site-packages/joblib/_multiprocessing_helpers.py:44: UserWarning: [Errno 2] No such file or directory.  joblib will operate in serial mode\n  warnings.warn(\"%s.  joblib will operate in serial mode\" % (e,))\n2025-09-21 13:26:51,920 - INFO - Starting MoSEs framework demonstration\n2025-09-21 13:26:51,920 - INFO - MoSEs framework initialized with 3 prototypes and 16 PCA components\n2025-09-21 13:26:51,920 - INFO - Generating synthetic data with 200 samples\n2025-09-21 13:26:51,926 - INFO - Building Stylistics Reference Repository with 200 samples\n2025-09-21 13:26:51,926 - INFO - Extracting linguistic features from 200 texts\n2025-09-21 13:26:51,930 - INFO - Extracting semantic embeddings from 200 texts\n2025-09-21 13:26:52,020 - INFO - SRR built successfully with 4 style categories\n2025-09-21 13:26:52,024 - INFO - Training Conditional Threshold Estimator\n2025-09-21 13:26:52,030 - INFO - CTE trained successfully with accuracy: 0.64\n2025-09-21 13:26:52,030 - INFO - Generating synthetic data with 50 samples\n2025-09-21 13:26:52,032 - INFO - Testing MoSEs framework on 50 samples\n2025-09-21 13:26:52,032 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,032 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,033 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,033 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,033 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,033 - INFO - Prediction: Human-written with confidence: 0.507\n2025-09-21 13:26:52,034 - INFO - Processed 0/50 test samples\n2025-09-21 13:26:52,034 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,034 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,034 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,034 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,034 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,035 - INFO - Prediction: AI-generated with confidence: 0.533\n2025-09-21 13:26:52,035 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,035 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,036 - INFO - SAR activated 120 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,036 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,036 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,037 - INFO - Prediction: Human-written with confidence: 0.593\n2025-09-21 13:26:52,037 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,037 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,037 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,037 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,037 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,038 - INFO - Prediction: Human-written with confidence: 0.507\n2025-09-21 13:26:52,038 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,038 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,039 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,039 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,039 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,039 - INFO - Prediction: AI-generated with confidence: 0.619\n2025-09-21 13:26:52,040 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,040 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,040 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,040 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,040 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,041 - INFO - Prediction: AI-generated with confidence: 0.613\n2025-09-21 13:26:52,041 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,041 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,041 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,041 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,041 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,042 - INFO - Prediction: Human-written with confidence: 0.579\n2025-09-21 13:26:52,042 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,042 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,043 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,043 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,043 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,043 - INFO - Prediction: AI-generated with confidence: 0.524\n2025-09-21 13:26:52,043 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,043 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,044 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,044 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,044 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,044 - INFO - Prediction: Human-written with confidence: 0.646\n2025-09-21 13:26:52,045 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,045 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,045 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,045 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,045 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,046 - INFO - Prediction: Human-written with confidence: 0.600\n2025-09-21 13:26:52,046 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,046 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,047 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,047 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,047 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,047 - INFO - Prediction: Human-written with confidence: 0.658\n2025-09-21 13:26:52,047 - INFO - Processed 10/50 test samples\n2025-09-21 13:26:52,047 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,048 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,048 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,048 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,048 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,049 - INFO - Prediction: AI-generated with confidence: 0.527\n2025-09-21 13:26:52,049 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,049 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,049 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,049 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,050 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,050 - INFO - Prediction: AI-generated with confidence: 0.521\n2025-09-21 13:26:52,050 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,050 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,051 - INFO - SAR activated 120 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,051 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,051 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,052 - INFO - Prediction: Human-written with confidence: 0.528\n2025-09-21 13:26:52,052 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,052 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,052 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,052 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,052 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,053 - INFO - Prediction: AI-generated with confidence: 0.502\n2025-09-21 13:26:52,053 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,053 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,054 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,054 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,054 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,054 - INFO - Prediction: AI-generated with confidence: 0.613\n2025-09-21 13:26:52,054 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,055 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,055 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,055 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,055 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,056 - INFO - Prediction: Human-written with confidence: 0.529\n2025-09-21 13:26:52,056 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,056 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,056 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,056 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,057 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,057 - INFO - Prediction: Human-written with confidence: 0.648\n2025-09-21 13:26:52,057 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,057 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,058 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,058 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,058 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,059 - INFO - Prediction: Human-written with confidence: 0.518\n2025-09-21 13:26:52,059 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,059 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,059 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,059 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,059 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,060 - INFO - Prediction: AI-generated with confidence: 0.610\n2025-09-21 13:26:52,064 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,064 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,065 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,065 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,065 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,066 - INFO - Prediction: Human-written with confidence: 0.545\n2025-09-21 13:26:52,066 - INFO - Processed 20/50 test samples\n2025-09-21 13:26:52,066 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,066 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,066 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,067 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,067 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,067 - INFO - Prediction: AI-generated with confidence: 0.618\n2025-09-21 13:26:52,067 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,067 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,068 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,068 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,068 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,069 - INFO - Prediction: AI-generated with confidence: 0.515\n2025-09-21 13:26:52,069 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,069 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,069 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,069 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,069 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,070 - INFO - Prediction: Human-written with confidence: 0.532\n2025-09-21 13:26:52,070 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,070 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,071 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,071 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,071 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,071 - INFO - Prediction: Human-written with confidence: 0.579\n2025-09-21 13:26:52,072 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,072 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,072 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,072 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,072 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,073 - INFO - Prediction: Human-written with confidence: 0.558\n2025-09-21 13:26:52,073 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,073 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,073 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,074 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,074 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,074 - INFO - Prediction: AI-generated with confidence: 0.548\n2025-09-21 13:26:52,074 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,074 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,075 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,075 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,075 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,076 - INFO - Prediction: Human-written with confidence: 0.548\n2025-09-21 13:26:52,076 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,076 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,076 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,076 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,076 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,077 - INFO - Prediction: AI-generated with confidence: 0.512\n2025-09-21 13:26:52,077 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,077 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,078 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,078 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,078 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,078 - INFO - Prediction: Human-written with confidence: 0.552\n2025-09-21 13:26:52,079 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,079 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,079 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,079 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,079 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,080 - INFO - Prediction: Human-written with confidence: 0.667\n2025-09-21 13:26:52,080 - INFO - Processed 30/50 test samples\n2025-09-21 13:26:52,080 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,080 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,081 - INFO - SAR activated 120 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,081 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,081 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,081 - INFO - Prediction: Human-written with confidence: 0.538\n2025-09-21 13:26:52,081 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,081 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,082 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,082 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,082 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,082 - INFO - Prediction: Human-written with confidence: 0.616\n2025-09-21 13:26:52,082 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,083 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,083 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,083 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,083 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,084 - INFO - Prediction: Human-written with confidence: 0.566\n2025-09-21 13:26:52,084 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,084 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,084 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,084 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,084 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,085 - INFO - Prediction: AI-generated with confidence: 0.621\n2025-09-21 13:26:52,085 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,085 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,085 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,086 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,086 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,086 - INFO - Prediction: Human-written with confidence: 0.598\n2025-09-21 13:26:52,086 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,086 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,087 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,087 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,087 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,088 - INFO - Prediction: AI-generated with confidence: 0.637\n2025-09-21 13:26:52,088 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,088 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,088 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,088 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,089 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,089 - INFO - Prediction: Human-written with confidence: 0.594\n2025-09-21 13:26:52,089 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,089 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,090 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,090 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,090 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,091 - INFO - Prediction: AI-generated with confidence: 0.592\n2025-09-21 13:26:52,091 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,091 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,091 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,091 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,091 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,092 - INFO - Prediction: Human-written with confidence: 0.501\n2025-09-21 13:26:52,092 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,092 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,093 - INFO - SAR activated 96 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,093 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,093 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,093 - INFO - Prediction: AI-generated with confidence: 0.726\n2025-09-21 13:26:52,093 - INFO - Processed 40/50 test samples\n2025-09-21 13:26:52,094 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,094 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,094 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,094 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,094 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,095 - INFO - Prediction: Human-written with confidence: 0.658\n2025-09-21 13:26:52,095 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,095 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,096 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,096 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,096 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,096 - INFO - Prediction: AI-generated with confidence: 0.717\n2025-09-21 13:26:52,096 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,096 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,097 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,097 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,097 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,098 - INFO - Prediction: Human-written with confidence: 0.501\n2025-09-21 13:26:52,098 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,098 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,098 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,098 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,098 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,099 - INFO - Prediction: Human-written with confidence: 0.592\n2025-09-21 13:26:52,099 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,099 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,100 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,100 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,100 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,105 - INFO - Prediction: AI-generated with confidence: 0.633\n2025-09-21 13:26:52,105 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,105 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,105 - INFO - SAR activated 120 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,105 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,106 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,106 - INFO - Prediction: AI-generated with confidence: 0.567\n2025-09-21 13:26:52,106 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,106 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,107 - INFO - SAR activated 104 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,107 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,107 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,108 - INFO - Prediction: Human-written with confidence: 0.579\n2025-09-21 13:26:52,108 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,108 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,108 - INFO - SAR activated 100 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,108 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,109 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,109 - INFO - Prediction: Human-written with confidence: 0.589\n2025-09-21 13:26:52,109 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,109 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,110 - INFO - SAR activated 80 reference samples from 2 nearest prototypes\n2025-09-21 13:26:52,110 - INFO - Extracting linguistic features from 1 texts\n2025-09-21 13:26:52,110 - INFO - Extracting semantic embeddings from 1 texts\n2025-09-21 13:26:52,111 - INFO - Prediction: Human-written with confidence: 0.592\n2025-09-21 13:26:52,114 - INFO - Test Results:\n2025-09-21 13:26:52,114 - INFO - Accuracy: 0.520\n2025-09-21 13:26:52,114 - INFO - F1 Score: 0.500\n2025-09-21 13:26:52,114 - INFO - Average Confidence: 0.579\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1283.54 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
